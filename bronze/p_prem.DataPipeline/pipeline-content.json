@@ -1,0 +1,32 @@
+{
+  "properties": {
+    "activities": [
+      {
+        "type": "TridentNotebook",
+        "typeProperties": {
+          "notebookId": "e30e6837-67c9-bb2d-4339-42a1f08e9b67",
+          "workspaceId": "00000000-0000-0000-0000-000000000000",
+          "parameters": {
+            "name": {
+              "value": "prem",
+              "type": "string"
+            },
+            "age": {
+              "value": "26",
+              "type": "int"
+            }
+          }
+        },
+        "policy": {
+          "timeout": "0.12:00:00",
+          "retry": 0,
+          "retryIntervalInSeconds": 30,
+          "secureInput": false,
+          "secureOutput": false
+        },
+        "name": "Notebook1",
+        "dependsOn": []
+      }
+    ]
+  }
+}
