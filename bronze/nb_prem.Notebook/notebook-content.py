@@ -115,6 +115,7 @@ df1.write.format("delta") \
 
 # CELL ********************
 
+print('test')
 
 # METADATA ********************
 
