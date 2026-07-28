@@ -115,6 +115,7 @@ df1.write.format("delta") \
 
 # CELL ********************
 
+df1.write.format("delta").mode("overwrite").saveAsTable("dbo.test")
 
 # METADATA ********************
 
